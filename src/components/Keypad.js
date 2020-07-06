@@ -5,7 +5,7 @@ export default class Keypad extends Component {
 
     render() {
         return (
-            <input type="password" keyUp = {() => {console.log("Entering password...")}}></input>
+            <input type="password" onKeyUp = {() => {console.log("Entering password...")}}></input>
         )
     }
 
