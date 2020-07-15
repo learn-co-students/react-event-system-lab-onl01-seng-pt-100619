@@ -1,14 +1,14 @@
 import React from 'react';
 
 class EyesOnMe extends React.Component {
-        onFocus = () => console.log('Good!')
-        onBlur = () => console.log( 'Hey! Eyes on me!')
+        onFocus = () => console.log("keypad component")
+        onBlur = () => console.log("Enter Password")
         
     
     render (){
         return (
             <button onFocus={this.onFocus} onBlur={this.onBlur}>
-               Eyes on me, Please!
+               EYS ON ME  
 
             </button>
         )
