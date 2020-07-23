@@ -1,6 +1,6 @@
 import React from 'react'
 
-class EyesOnMe extends Component {  
+class EyesOnMe extends React.Component {  
 
     focusing = event => { 
         console.log('Good!') 
